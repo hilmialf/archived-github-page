@@ -1,0 +1,39 @@
+.bg-black {
+  background: #000;
+  color: #fff; }
+
+.bg-darkgrey {
+  background: #a9a9a9; }
+
+.bg-lightgrey {
+  background: #d3d3d3; }
+
+#main-header {
+  background: url("../img/home.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 760px; }
+  #main-header a:hover {
+    text-decoration: none; }
+  #main-header .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 760px; }
+  #main-header .kepala {
+    padding-top: 100px; }
+  #main-header img {
+    width: 100%;
+    height: 100%; }
+  #main-header .port-item {
+    width: 25%; }
+    #main-header .port-item .fa {
+      font-size: 2em; }
+  #main-header .port-item:hover {
+    opacity: 0.8;
+    cursor: pointer; }
+  #main-header .port-item2 {
+    width: 25%; }
+    #main-header .port-item2 .fa {
+      font-size: 1em; }

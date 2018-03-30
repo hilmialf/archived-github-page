@@ -1,0 +1,61 @@
+$dark-overlay: rgba(0,0,0,0.8);
+.bg-black{
+  background:#000;
+  color:#fff;
+}
+
+.bg-darkgrey{
+  background:#a9a9a9;
+}
+
+.bg-lightgrey{
+  background:#d3d3d3;
+}
+
+ #main-header{
+   background:url('../img/home.jpg') no-repeat;
+   background-size:cover;
+   background-attachment:fixed;
+   min-height:760px;
+
+   a:hover{
+  text-decoration: none;
+  }
+
+   .dark-overlay{
+     background-color:$dark-overlay;
+     top:0;
+     left:0;
+     width:100%;
+     min-height:760px;
+   }
+
+   .kepala{
+     padding-top:100px;
+   }
+
+   img{
+     width:100%;
+     height:100%;
+   }
+
+   .port-item{
+     width:25%;
+     .fa{
+       font-size:2em;
+     }
+   }
+
+   .port-item:hover{
+     opacity:0.8;
+     cursor:pointer;
+   }
+
+   .port-item2{
+     width:25%;
+     .fa{
+       font-size:1em;
+     }
+   }
+
+ }
